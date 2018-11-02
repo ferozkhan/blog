@@ -12,7 +12,7 @@ def serialize(node):
     """
 
     :param node:
-    :return: ['root', ['left', ['left.left'], 'right']]
+    :return: 1 2 # # 3 # #
     """
     if node is None:
         return '#'
